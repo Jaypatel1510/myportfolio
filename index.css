@@ -1,0 +1,198 @@
+body{
+    background-color:#ecf0f3;
+}
+p{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: #827d7f;
+    width: 30vh;
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+    width: 40%;
+    padding-left: 200px;
+    padding-right: 100px;
+    margin-right: 10px;
+}
+li{
+    font-size: 20px;
+    text-align: center;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+}
+.nav{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    width: 30%;
+}
+.home{
+    background-color:#ecf0f3;
+    box-shadow:10px 10px 10px 5px #d1d9e6,-10px -10px 10px #f9f9f9;
+    border-radius: 12px;
+    border:#ecf0f3 ;
+    display: flex;
+    border-radius: 10px;
+    height: 75vh;
+    margin: 10vh;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30vh;
+}
+
+.img{
+    width: 50%;
+    background: lightblue;
+    border-radius: 50%;
+    height: 70vh;
+    width: 70vh;
+    margin: auto;
+}
+img{
+    border-radius: 50%;
+    height: 70vh;
+    width: 70vh;
+    object-fit: cover;
+    box-shadow:10px 10px 10px #d1d9e6,-10px -10px 10px #f9f9f9;
+}
+.home-text{
+    border-radius: 20px;
+    background-color:#ecf0f3;
+    border-radius: 12px;
+    border:#ecf0f3 ;
+    font-size: 20px;
+    color: #827d7f;
+    justify-content: center;
+    margin: auto;
+}
+h1{
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: 30;
+}
+
+.home1{
+    background-color:#ecf0f3;
+    box-shadow:10px 10px 10px 5px #d1d9e6,-10px -10px 10px #f9f9f9;
+    border-radius: 12px;
+    border:#ecf0f3 ;
+    border-radius: 10px;
+    height: 100%;
+    margin: 10vh;
+    margin-top: 10vh;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+    margin-bottom: 30vh;
+}
+.home1 p{
+    margin-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    justify-content: center;
+    height: 80%;
+}
+.aboutme{
+    color: #827d7f;
+    height: 20%;
+    text-align: center;
+}
+.home3{
+    background-color:#ecf0f3;
+    box-shadow:10px 10px 10px  #d1d9e6,-10px -10px 10px #d1d9e6;
+    border-radius: 12px;
+    border:#ecf0f3 ;
+    border-radius: 10px;
+    height: 100%;
+    margin: 10vh;
+    margin-top: 10vh;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+
+  @media only screen and (max-width: 850px) {
+    .home{
+        background-color:#ecf0f3;
+        box-shadow:10px 10px 10px 5px #d1d9e6,-10px -10px 10px #f9f9f9;
+        border:#ecf0f3 ;
+        display: flex;
+        border-radius: 10px;
+        height: 100%;
+        width: 165vh;
+        margin-left: 10vh;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar{
+        list-style-type: none;
+        float: right;
+        margin-top: 25px;
+        width: 80%;
+        padding-right: auto;
+        margin-right: 10px;
+    }
+    .img{
+        align-items: center;
+        background: lightblue;
+        border:#ecf0f3 ;
+        box-shadow:10px 10px 10px 5px #d1d9e6,-10px -10px 10px #f9f9f9;
+        border-radius: 50%;
+        height: 50vh;
+        width: 50vh;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    img{
+        border-radius: 50%;
+        height: 50vh;
+        width: 50vh;
+        object-fit: cover;
+    }
+    .home-text{
+        border-radius: 20px;
+        font-size: 20px;
+        color: #827d7f;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .home1{
+        background-color:#ecf0f3;
+        box-shadow:10px 10px 10px 5px #d1d9e6,-10px -10px 10px #f9f9f9;
+        border:#ecf0f3 ;
+        border-radius: 10px;
+        height: 100%;
+        width: 165vh;
+        margin-left: 10vh;
+        text-align: center;
+        justify-content: center;
+        object-fit: cover;
+    }
+    .home1 p{
+        margin-top: 10vh;
+        padding-left: 10vh;
+        padding-right: 10vh;
+        justify-content: center;
+        height: 80%;
+    }
+    .aboutme{
+        margin-top: 10vh;
+        color: #827d7f;
+        height: 20%;
+        text-align: center;
+    }
+  }
